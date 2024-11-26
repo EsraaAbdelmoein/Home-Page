@@ -1,0 +1,37 @@
+/* General Styling for All Boxes */
+.box1, .box2, .box3, .box4 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px dashed purple; /* Dashed purple border */
+    border-radius: 10px; /* Rounded corners */
+    color: black; /* Black text color */
+    text-align: center; /* Center the text */
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Unique Colors for Each Box */
+.box1 {
+    background-color: #ff7f7f; /* Soft Red */
+}
+
+.box2 {
+    background-color: #87cefa; /* Light Blue */
+}
+
+.box3 {
+    background-color: #90ee90; /* Light Green */
+}
+
+.box4 {
+    background-color: #ffa07a; /* Light Salmon */
+}
+
+/* Hover Effect for Boxes */
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More intense shadow */
+}
